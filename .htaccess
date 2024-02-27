@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^index\.bpom$ index.php?view=home
+RewriteRule ^account\.bpom$ index.php?view=account
+RewriteRule ^pegawai\.bpom$ index.php?view=pegawai
+RewriteRule ^karyawan\.bpom$ index.php?view=karyawan
+RewriteRule ^account_admin\.bpom$ index.php?view=account_admin
+RewriteRule ^account_pegawai\.bpom$ index.php?view=account_pegawai
+RewriteRule ^admin_print\.bpom$ index.php?view=admin_print
+RewriteRule ^admin_import\.bpom$ index.php?view=admin_import
+
